@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    title ST Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+          div#logo
+            img(src="/static/images/logo.png")
+            |  ST
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+    section#intro 
+      div  WELCOME TO ST DANCE ACADEMY
+      div.small  LET'S DANCE AND ENJOY 
+
+    section#mission
+      h2 Our Mission
+      div.card
+        h3 Dance the way you like
+        div.card-box
+          div.card-img
+            img(src="/static/images/1.png")
+          div.card-content
+            p This is the best dance academy where it  make you perfect in dance steps
+
+      div.card
+        h3 Dance with beat
+        div.card-box
+          div.card-img
+            img(src="/static/images/2.png")
+          div.card-content
+           p This is the best dance academy where it  make you perfect in dance steps
+
+
+      div.card
+        h3 Dance expert
+        div.card-box
+          div.card-img
+            img(src="/static/images/3.png")
+          div.card-content           
+            p This is the best dance academy where it  make you perfect in dance steps
+
+    section#sponsors 
+      h2 Our Sponsors
+      div#spon
+        img(src="/static/images/logo1.png", class="spImage")
+        img(src="/static/images/logo2.png", class="spImage")
+        img(src="/static/images/logo3.png", class="spImage")
+        img(src="/static/images/logo4.png", class="spImage")
+
+    footer#footer
+      | copyright © 2022 STdanceAcademy.com | All rights reserved.
+
+    script
+        include ../static/index.js

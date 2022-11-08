@@ -1,0 +1,49 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+        include ../static/style.css
+
+block content
+
+  section#intro
+      div  WELCOME TO ST DANCE ACADEMY
+      div.small  LET'S DANCE AND ENJOY 
+
+  section#mission
+      h2 Our Mission
+      div.card
+        h3 Dance the way you like
+        div.card-box
+          div.card-img
+            img(src="/static/images/1.png")
+          div.card-content
+            p This is the best dance academy where it  make you perfect in dance steps
+
+      div.card
+        h3 Dance with beat
+        div.card-box
+          div.card-img
+            img(src="/static/images/2.png")
+          div.card-content
+           p This is the best dance academy where it  make you perfect in dance steps
+
+
+      div.card
+        h3 Dance expert
+        div.card-box
+          div.card-img
+            img(src="/static/images/3.png")
+          div.card-content           
+            p This is the best dance academy where it  make you perfect in dance steps
+
+  section#sponsors 
+      h2 Our Sponsors
+      div#spon
+        img(src="/static/images/logo1.png", class="spImage")
+        img(src="/static/images/logo2.png", class="spImage")
+        img(src="/static/images/logo3.png", class="spImage")
+        img(src="/static/images/logo4.png", class="spImage")
